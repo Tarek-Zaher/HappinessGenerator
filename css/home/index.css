@@ -8,11 +8,13 @@ header {
   margin: 0;
 }
 
-.smMobileImage {display: none;}
-.lgMobileImage {display: none;}
-.tabletImage {display: none;}
-.laptopImage {display: none;}
-.desktopImage {display: none;}
+.smMobileImage {display: none; position: relative;}
+.lgMobileImage {display: none; position: relative;}
+.tabletImage {display: none; position: relative;}
+.laptopImage {display: none; position: relative;}
+.desktopImage {display: none; position: relative;}
+
+.ghCloud {position: absolute;}
 
 
 
@@ -24,6 +26,7 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: none;}
   .desktopImage {display: none;}
+  .ghCloud{left: 11px; top: 242px;}
 }
 /* Large Mobile Screens (btwn 321px and 425px) */
 @media (min-width: 321px) and (max-width: 425px) {
@@ -32,6 +35,7 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: none;}
   .desktopImage {display: none;}
+  .ghCloud{left: 51px; top: 242px;}
 }
 /* Tablet Screens (btwn 426px and 768px) */
 @media (min-width: 426px) and (max-width: 768px) {
@@ -40,6 +44,7 @@ header {
   .tabletImage {display: block;}
   .laptopImage {display: none;}
   .desktopImage {display: none;}
+  .ghCloud{left: 204px; top: 149px;}
 }
 /* Laptop Screens (btwn 769px and 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -48,6 +53,7 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: block;}
   .desktopImage {display: none;}
+  .ghCloud{left: 334px; top: 142px;}
 }
 /* Desktop Screens (1025px and above) */
 @media (min-width: 1025px) {
@@ -56,4 +62,5 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: none;}
   .desktopImage {display: block;}
+  .ghCloud{left: 542px; top: 143px;}
 }

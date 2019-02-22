@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="325px" height="200px" viewBox="0 0 325 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Cloud</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GH-Cloud">
+            <g id="Cloud">
+                <ellipse id="Oval" fill="#FFFFFF" cx="191.5" cy="96" rx="95.5" ry="96"></ellipse>
+                <circle id="Oval" fill="#FFFFFF" cx="77.5" cy="106.5" r="58.5"></circle>
+                <g id="Cloud-Base" transform="translate(0.000000, 118.000000)" fill="#FFFFFF">
+                    <rect id="middle" x="37.6959248" y="0" width="256.739812" height="82"></rect>
+                    <ellipse id="Oval" cx="287.304075" cy="41" rx="37.6959248" ry="41"></ellipse>
+                    <ellipse id="Oval-Copy" cx="37.6959248" cy="41" rx="37.6959248" ry="41"></ellipse>
+                </g>
+                <text id="Generate-Happiness" font-family="AvenirNext-Bold, Avenir Next" font-size="36" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="78" y="105">Generate </tspan>
+                    <tspan x="78" y="154">Happiness</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

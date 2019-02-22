@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 1024px;
+  margin: 0;
+}
+
+.smMobileImage {display: none;}
+.lgMobileImage {display: none;}
+.tabletImage {display: none;}
+.laptopImage {display: none;}
+.desktopImage {display: none;}
+
+
+
+/* MEDIA QUERIES */
+/* Small Mobile Screens (320px and less) */
+@media (max-width: 320px) {
+  .smMobileImage {display: block;}
+  .lgMobileImage {display: none;}
+  .tabletImage {display: none;}
+  .laptopImage {display: none;}
+  .desktopImage {display: none;}
+}
+/* Large Mobile Screens (btwn 321px and 425px) */
+@media (min-width: 321px) and (max-width: 425px) {
+  .smMobileImage {display: none;}
+  .lgMobileImage {display: block;}
+  .tabletImage {display: none;}
+  .laptopImage {display: none;}
+  .desktopImage {display: none;}
+}
+/* Tablet Screens (btwn 426px and 768px) */
+@media (min-width: 426px) and (max-width: 768px) {
+  .smMobileImage {display: none;}
+  .lgMobileImage {display: none;}
+  .tabletImage {display: block;}
+  .laptopImage {display: none;}
+  .desktopImage {display: none;}
+}
+/* Laptop Screens (btwn 769px and 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .smMobileImage {display: none;}
+  .lgMobileImage {display: none;}
+  .tabletImage {display: none;}
+  .laptopImage {display: block;}
+  .desktopImage {display: none;}
+}
+/* Desktop Screens (1025px and above) */
+@media (min-width: 1025px) {
+  .smMobileImage {display: none;}
+  .lgMobileImage {display: none;}
+  .tabletImage {display: none;}
+  .laptopImage {display: none;}
+  .desktopImage {display: block;}
+}

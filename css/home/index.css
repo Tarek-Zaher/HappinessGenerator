@@ -14,7 +14,18 @@ header {
 .laptopImage {display: none; position: relative;}
 .desktopImage {display: none; position: relative;}
 
-.ghCloud {position: absolute;}
+.ghCloud {position: absolute; opacity: 0; transition: transform .5s linear 1.5s; animation: ghCloudEntrance .5s linear 1.5s; animation-fill-mode: forwards;}
+
+
+
+/* ANIMATIONS */
+/* ghCloud Entrance */
+@keyframes ghCloudEntrance {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
 
 
 
@@ -62,5 +73,6 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: none;}
   .desktopImage {display: block;}
-  .ghCloud{left: 542px; top: 143px;}
+  /* desktop center for .ghCloud is left: 542px and top: 143px */
+  .ghCloud{left: 512px; top: 143px; transform: translateX(30px);}
 }

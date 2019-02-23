@@ -45,7 +45,15 @@ header {
   .laptopImage {display: none;}
   .desktopImage {display: none;}
   /* smMoble center for .ghCloud is left: 11px and top: 242px */
-  .ghCloud {left: -19px; top: 242px; transform: translateX(17px);}
+  .ghCloud {
+    left: -19px;
+    top: 242px;
+    -webkit-transform: translateX(17px);
+    -ms-transform: translateX(17px);
+    -moz-transform: translateX(17px);
+    -o-transform: translateX(17px);
+    transform: translateX(17px);
+  }
 }
 /* Large Mobile Screens (btwn 321px and 425px) */
 @media (min-width: 321px) and (max-width: 425px) {
@@ -55,7 +63,15 @@ header {
   .laptopImage {display: none;}
   .desktopImage {display: none;}
   /* lgMobile center for .ghCloud is left: 51px and top: 242px */
-  .ghCloud {left: 21px; top: 242px; transform: translateX(30px);}
+  .ghCloud {
+    left: 21px;
+    top: 242px;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+  }
 }
 /* Tablet Screens (btwn 426px and 768px) */
 @media (min-width: 426px) and (max-width: 768px) {
@@ -65,7 +81,15 @@ header {
   .laptopImage {display: none;}
   .desktopImage {display: none;}
   /* tablet center for .ghCloud is left: 204px and top: 149px */
-  .ghCloud {left: 174px; top: 149px; transform: translateX(30px);}
+  .ghCloud {
+    left: 174px;
+    top: 149px;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+  }
 }
 /* Laptop Screens (btwn 769px and 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -75,7 +99,15 @@ header {
   .laptopImage {display: block;}
   .desktopImage {display: none;}
   /* laptop center for .ghCloud is left: 334px and top: 142px */
-  .ghCloud {left: 304px; top: 142px; transform: translateX(30px);}
+  .ghCloud {
+    left: 304px;
+    top: 142px;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+  }
 }
 /* Desktop Screens (1025px and above) */
 @media (min-width: 1025px) {
@@ -85,5 +117,13 @@ header {
   .laptopImage {display: none;}
   .desktopImage {display: block;}
   /* desktop center for .ghCloud is left: 542px and top: 143px */
-  .ghCloud {left: 512px; top: 143px; transform: translateX(30px);}
+  .ghCloud {
+    left: 512px;
+    top: 143px;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+  }
 }

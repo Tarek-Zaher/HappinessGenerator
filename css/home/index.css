@@ -45,7 +45,7 @@ header {
   .laptopImage {display: none;}
   .desktopImage {display: none;}
   /* smMoble center for .ghCloud is left: 11px and top: 242px */
-  .ghCloud {left: -19px; top: 242px; transform: translateX(30px);}
+  .ghCloud {left: -19px; top: 242px; transform: translateX(17px);}
 }
 /* Large Mobile Screens (btwn 321px and 425px) */
 @media (min-width: 321px) and (max-width: 425px) {

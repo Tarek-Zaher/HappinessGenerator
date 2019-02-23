@@ -14,7 +14,14 @@ header {
 .laptopImage {display: none; position: relative;}
 .desktopImage {display: none; position: relative;}
 
-.ghCloud {position: absolute; opacity: 0; transition: transform .5s linear 1.5s; animation: ghCloudEntrance .5s linear 1.5s; animation-fill-mode: forwards;}
+.ghCloud {
+  position: absolute;
+  opacity: 0;
+  transition:
+  transform .5s linear 1.5s;
+  animation: ghCloudEntrance .5s linear 1.5s;
+  animation-fill-mode: forwards;
+}
 
 
 
@@ -37,7 +44,8 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: none;}
   .desktopImage {display: none;}
-  .ghCloud{left: 11px; top: 242px;}
+  /* smMoble center for .ghCloud is left: 11px and top: 242px */
+  .ghCloud {left: -19px; top: 242px; transform: translateX(30px);}
 }
 /* Large Mobile Screens (btwn 321px and 425px) */
 @media (min-width: 321px) and (max-width: 425px) {
@@ -46,7 +54,8 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: none;}
   .desktopImage {display: none;}
-  .ghCloud{left: 51px; top: 242px;}
+  /* lgMobile center for .ghCloud is left: 51px and top: 242px */
+  .ghCloud {left: 21px; top: 242px; transform: translateX(30px);}
 }
 /* Tablet Screens (btwn 426px and 768px) */
 @media (min-width: 426px) and (max-width: 768px) {
@@ -55,7 +64,8 @@ header {
   .tabletImage {display: block;}
   .laptopImage {display: none;}
   .desktopImage {display: none;}
-  .ghCloud{left: 204px; top: 149px;}
+  /* tablet center for .ghCloud is left: 204px and top: 149px */
+  .ghCloud {left: 174px; top: 149px; transform: translateX(30px);}
 }
 /* Laptop Screens (btwn 769px and 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -64,7 +74,8 @@ header {
   .tabletImage {display: none;}
   .laptopImage {display: block;}
   .desktopImage {display: none;}
-  .ghCloud{left: 334px; top: 142px;}
+  /* laptop center for .ghCloud is left: 334px and top: 142px */
+  .ghCloud {left: 304px; top: 142px; transform: translateX(30px);}
 }
 /* Desktop Screens (1025px and above) */
 @media (min-width: 1025px) {
@@ -74,5 +85,5 @@ header {
   .laptopImage {display: none;}
   .desktopImage {display: block;}
   /* desktop center for .ghCloud is left: 542px and top: 143px */
-  .ghCloud{left: 512px; top: 143px; transform: translateX(30px);}
+  .ghCloud {left: 512px; top: 143px; transform: translateX(30px);}
 }
